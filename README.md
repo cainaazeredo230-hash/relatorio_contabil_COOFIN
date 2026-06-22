@@ -62,6 +62,8 @@ Fluxo principal:
 - ├── data/
 - │   └── (relatórios baixados automaticamente)
 - │
+- ├── ARQUIVOS_RETORNO/ # Onde ficará o arquivo de relatório
+- │
 - └── .env                  # Credenciais do sistema
 
 
