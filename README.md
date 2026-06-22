@@ -48,22 +48,21 @@ Excel final formatado (OpenPyXL)
 
 ## 📂 Estrutura do projeto
 
-projeto/
-│
-
-├── main.py # Orquestrador principal
-├── login_siafe.py # Login automático no FlexVision
-├── extrair_relatorio.py # Download dos relatórios
-├── extrair_dados.py # ETL principal (transformação de dados)
-├── cruzamento.py # Funções auxiliares de cruzamento
+📦 projeto
+├── main.py                # Orquestrador principal
+├── login_siafe.py        # Login automático no FlexVision
+├── extrair_relatorio.py  # Download dos relatórios
+├── extrair_dados.py      # ETL principal (transformação de dados)
+├── cruzamento.py         # Funções auxiliares de cruzamento
 │
 ├── config/
-│ ├── De_para.xlsx # Normalização de credores
-│ └── Layout.xlsx # Estrutura base do relatório
+│   ├── De_para.xlsx      # Normalização de credores
+│   └── Layout.xlsx       # Estrutura base do relatório
 │
-├── data/ # Relatórios baixados automaticamente
-├── ARQUIVOS_RETORNO/ # Onde ficará o arquivo de relatório
-└── .env # Credenciais do sistema
+├── data/
+│   └── (relatórios baixados automaticamente)
+│
+└── .env                  # Credenciais do sistema
 
 
 ---
