@@ -165,6 +165,7 @@ Contém:
 
 ## Como instalar
 rodar os seguintes comandos no seu terminal:
+  - pip install -r requirements.txt
   - pip install pyinstaller
   - pyinstaller --onefile --add-data "config;config" --add-data "data;data" --add-data ".env;." main.py
 
