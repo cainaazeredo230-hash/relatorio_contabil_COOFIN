@@ -50,6 +50,7 @@ Excel final formatado (OpenPyXL)
 
 projeto/
 │
+
 ├── main.py # Orquestrador principal
 ├── login_siafe.py # Login automático no FlexVision
 ├── extrair_relatorio.py # Download dos relatórios
