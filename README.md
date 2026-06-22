@@ -31,38 +31,38 @@ Eliminar o trabalho manual de:
 
 Fluxo principal:
 
-FlexVision (Web)
-↓
-Playwright (Login + Download)
-↓
-Arquivos Excel (RAW)
-↓
-Pandas ETL (tratamento e cruzamento)
-↓
-Regras financeiras e contábeis
-↓
-Excel final formatado (OpenPyXL)
+- FlexVision (Web)
+- ↓
+- Playwright (Login + Download)
+- ↓
+- Arquivos Excel (RAW)
+- ↓
+- Pandas ETL (tratamento e cruzamento)
+- ↓
+- Regras financeiras e contábeis
+- ↓
+- Excel final formatado (OpenPyXL)
 
 
 ---
 
 ## 📂 Estrutura do projeto
 
-📦 projeto
-├── main.py                # Orquestrador principal
-├── login_siafe.py        # Login automático no FlexVision
-├── extrair_relatorio.py  # Download dos relatórios
-├── extrair_dados.py      # ETL principal (transformação de dados)
-├── cruzamento.py         # Funções auxiliares de cruzamento
-│
-├── config/
-│   ├── De_para.xlsx      # Normalização de credores
-│   └── Layout.xlsx       # Estrutura base do relatório
-│
-├── data/
-│   └── (relatórios baixados automaticamente)
-│
-└── .env                  # Credenciais do sistema
+- 📦 projeto
+- ├── main.py                # Orquestrador principal
+- ├── login_siafe.py        # Login automático no FlexVision
+- ├── extrair_relatorio.py  # Download dos relatórios
+- ├── extrair_dados.py      # ETL principal (transformação de dados)
+- ├── cruzamento.py         # Funções auxiliares de cruzamento
+- │
+- ├── config/
+- │   ├── De_para.xlsx      # Normalização de credores
+- │   └── Layout.xlsx       # Estrutura base do relatório
+- │
+- ├── data/
+- │   └── (relatórios baixados automaticamente)
+- │
+- └── .env                  # Credenciais do sistema
 
 
 ---
